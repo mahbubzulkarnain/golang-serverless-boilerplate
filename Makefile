@@ -20,4 +20,4 @@ deploy: clean build
 
 local:
 	make build
-	sam local start-api
+	sam local start-api --skip-pull-image -p 3000
