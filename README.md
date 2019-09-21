@@ -21,7 +21,7 @@ npm install -g serverless aws-sam-local
 git clone https://github.com/mahbubzulkarnain/golang-serverless-boilerplate.git
 
 # Compile the sample lambdas
-cd serverless_framework_golang/
+cd golang-serverless-boilerplate/
 make build
 
 # Invoke the "apigw" sample lambda locally at localhost:3000
