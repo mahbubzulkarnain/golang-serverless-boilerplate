@@ -18,7 +18,7 @@ Gateway simulation using a docker container.
 npm install -g serverless aws-sam-local
 
 # Clone the skeleton
-git clone https://github.com/mahbubzulkarnain/serverless_framework_golang.git
+git clone https://github.com/mahbubzulkarnain/golang-serverless-boilerplate.git
 
 # Compile the sample lambdas
 cd serverless_framework_golang/
