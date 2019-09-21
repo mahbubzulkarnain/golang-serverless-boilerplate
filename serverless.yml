@@ -16,17 +16,11 @@ package:
     - ./bin/**
 
 functions:
-  hello:
-    handler: bin/hello
+  ping:
+    handler: bin/ping
     events:
       - http:
-          path: hello
-          method: get
-  world:
-    handler: bin/world
-    events:
-      - http:
-          path: world
+          path: /
           method: get
           
 # Welcome to Serverless!
